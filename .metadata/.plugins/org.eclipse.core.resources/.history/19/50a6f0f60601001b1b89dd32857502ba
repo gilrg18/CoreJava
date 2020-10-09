@@ -1,0 +1,15 @@
+package synchronization;
+
+public class SynchroDemo {
+
+	public static void main(String[] args) {
+		DisplayMessage dm = new DisplayMessage();
+		
+		MyThread t1 = new MyThread(dm, "Gil");
+		MyThread t2 = new MyThread(dm, "Lala");
+			
+		t1.start();
+		t2.start();
+	}
+
+}

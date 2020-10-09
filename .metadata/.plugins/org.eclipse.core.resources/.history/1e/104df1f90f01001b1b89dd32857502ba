@@ -1,0 +1,8 @@
+package threadassignment;
+
+public class OddNumbersThread extends Thread {
+	public void run(){
+		
+	}
+
+}
