@@ -1,3 +1,4 @@
-#CORE JAVA TOPICS
+CORE JAVA TOPICS
+
 Gilberto Rogel Garcia
 Software Engineer
