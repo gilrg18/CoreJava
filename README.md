@@ -2,5 +2,6 @@
 CORE JAVA TOPICS
 =======
 
-Gilberto Rogel Garcia
+Gilberto Rogel Garcia  
+
 Software Engineer
