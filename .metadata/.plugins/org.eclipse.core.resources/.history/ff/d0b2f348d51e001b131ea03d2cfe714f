@@ -1,0 +1,23 @@
+package com.gil.training.ef;
+import java.util.concurrent.*;
+//HOW TO create a thread pool and execute multiple checkprocessortaks
+public class ExecutorDemo {
+	public static void main(String[] args) {
+		CheckProcessorTask[] cps = { new CheckProcessorTask("ATM"), new CheckProcessorTask("Bank"),
+				new CheckProcessorTask("Mobile"), new CheckProcessorTask("Web") };
+		
+		ExecutorService service = Executors.newFixedThreadPool(2);
+		/*
+		 * we are giving the ExecutorService one task at
+
+			a time. And we are asking it to create only two threads and manage all these four tasks using those
+
+			two threads.
+		 */
+		for(CheckProcessorTask checkProcessorTask : cps){
+			service.submit(checkProcessorTask);
+		}
+		//Once we are done with all the work we need to shutdown the executor service
+		service.shutdown();
+	}
+}

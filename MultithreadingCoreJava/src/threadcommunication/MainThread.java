@@ -9,7 +9,7 @@ package threadcommunication;
  * 
  * Not Robust: if a million checks/threads come at some point our application will run out of memory and die
  * 
- * To avoid all of these we use the Executor Framework
+ * To avoid all of these we use the Executor Framework (Check "ExecutorFramework" Project)
  */
 public class MainThread {
 	public static void main(String[] args) throws InterruptedException {
