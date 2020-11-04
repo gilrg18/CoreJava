@@ -10,7 +10,7 @@ public class MainThread {
 			//wait and notify must be in synchronized context (block, method, etc)
 			t.wait();// t is going to wait untill the child thread finishes
 			System.out.println("Main thread notified");
-			System.out.println(t.total); //test
+			System.out.println(t.total); /test
 		}
 	}
 }
