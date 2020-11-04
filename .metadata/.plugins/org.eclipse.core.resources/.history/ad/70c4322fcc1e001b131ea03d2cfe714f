@@ -1,0 +1,9 @@
+package com.gil.training.ef;
+
+public class CheckProcessorTask implements Runnable{
+	@Override
+	public void run(){
+		
+	}
+
+}
