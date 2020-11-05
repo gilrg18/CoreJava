@@ -27,13 +27,7 @@ public class CallableFutureDemo {
 	
 	
 	/*
-	 * Executor framework will create a pool of threads
-	 *  
-	 * The service maethod takes a callable and returns a future
 	 * 
-	 * Exceptions thrown when we invoke future.get().. Interrupted and ServiceException
-	 * 
-	 * ExecutorService method that should be called at the end : shutdown()
 	 */
 
 }
