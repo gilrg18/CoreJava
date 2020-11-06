@@ -1,0 +1,9 @@
+package nonstaticinner;
+
+public class Outer {
+	
+	public static void main(String[] args) {
+
+	}
+
+}

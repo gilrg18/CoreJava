@@ -1,0 +1,17 @@
+package anonymousinner;
+
+public class DriverManager {
+	
+	static Connection getConnection() {
+		//Anonymous Inner class with the connection interface
+		Connection con = new Connection() {
+
+			@Override
+			public void createStatement() {
+				System.out.println("Anonymous inner classes method");
+			}
+
+		};
+		return con;
+	}
+}
