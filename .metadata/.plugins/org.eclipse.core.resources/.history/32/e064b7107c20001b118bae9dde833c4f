@@ -1,0 +1,28 @@
+
+public class GCDemo {
+	/*
+	 * GARBAGE COLLECTION IS A PROCESS BY WHICH A DEMON THREAD, THE 
+	 * GARBAGE COLLECTION THREAD WILL CLEAR UP THE UNREACHABLE OBJECTS IN THE HEAP
+	 */
+	
+	int objId;
+	
+	GCDemo(int objId){
+		this.objId=objId;
+		System.out.println("Created: "+ objId);
+	}
+	
+	
+	public static void main(String[] args) {
+		for(int i=1; i<=5000; i++){
+			new GCDemo(i);
+		}
+		
+	}
+	
+	@Override
+	protected void finalize(){
+		System.out.println("Finalized: " +objId);
+	}
+
+}
