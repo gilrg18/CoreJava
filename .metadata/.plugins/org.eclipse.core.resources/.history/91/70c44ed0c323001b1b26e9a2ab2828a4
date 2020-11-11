@@ -1,0 +1,10 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		// new Product(1,"IPhone");
+		//CTRL+1 To assign to variable
+	    Product product = new Product(1,"IPhone");
+	}
+
+}

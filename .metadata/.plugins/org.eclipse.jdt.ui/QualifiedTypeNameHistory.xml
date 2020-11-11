@@ -33,4 +33,7 @@
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
 <fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
+<fullyQualifiedTypeName name="staticinner.Outer.Inner"/>
+<fullyQualifiedTypeName name="nonstaticinner.Outer"/>
+<fullyQualifiedTypeName name="org.omg.Messaging.SyncScopeHelper"/>
 </qualifiedTypeNameHistroy>

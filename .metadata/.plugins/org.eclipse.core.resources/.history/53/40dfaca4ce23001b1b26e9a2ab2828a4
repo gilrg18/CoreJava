@@ -1,0 +1,11 @@
+
+public class StringMethods {
+
+	public static void main(String[] args) {
+		String s = "Hello";
+		System.out.println("Length of the String: "+ s.length());
+		//index of particular character in string
+		System.out.println(s.indexOf("o"));
+	}
+
+}
