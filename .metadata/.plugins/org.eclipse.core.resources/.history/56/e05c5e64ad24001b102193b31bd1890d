@@ -1,0 +1,10 @@
+package outputstreams;
+
+public class ReaderAndWriterDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

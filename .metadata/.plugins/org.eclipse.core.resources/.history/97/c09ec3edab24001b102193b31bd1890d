@@ -1,0 +1,16 @@
+package outputstreams;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
+//Copy a file using FileOutputStream
+public class FileOutputStreamDemo {
+
+	public static void main(String[] args) {
+		FileInputStream fis;
+		FileOutputStream fos;
+		
+		fis = new FileInputStream("/C:/Users/gilbe/Desktop/FolderOfFolders/IOdemo.txt");
+	}
+
+}

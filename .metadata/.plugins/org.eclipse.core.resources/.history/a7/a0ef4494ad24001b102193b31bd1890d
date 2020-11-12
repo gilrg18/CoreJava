@@ -1,0 +1,10 @@
+package outputstreams;
+//Using Reader and Writer
+//Readers and writers deal with text data
+public class ReaderAndWriterDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

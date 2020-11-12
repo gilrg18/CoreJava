@@ -1,0 +1,11 @@
+import java.io.FileInputStream;
+
+public class FileInputStreamDemo {
+
+	public static void main(String[] args) {
+		FileInputStream fis = null;
+		
+		fis = new FileInputStream(new File("C:/Users/gilbe/Desktop/FolderOfFolders/IOdemo"));
+	}
+
+}

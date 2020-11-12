@@ -36,4 +36,5 @@
 <fullyQualifiedTypeName name="staticinner.Outer.Inner"/>
 <fullyQualifiedTypeName name="nonstaticinner.Outer"/>
 <fullyQualifiedTypeName name="org.omg.Messaging.SyncScopeHelper"/>
+<fullyQualifiedTypeName name="Immutable.User"/>
 </qualifiedTypeNameHistroy>
