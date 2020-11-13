@@ -1,7 +1,0 @@
-package com.gil.training.ef;
-
-public class ExecutorDemo {
-	public static void main(String[] args){
-		CheckProcessorTask[] cps = {new CheckProcessorTask("ATM"), new CheckProcessorTask("Bank"), new CheckProcessorTask("Mobile"), new CheckProcessorTask("Web")}
-	}
-}

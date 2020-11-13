@@ -1,0 +1,15 @@
+package serialization;
+
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+
+public class SerializationDemo {
+
+	public static void main(String[] args) {
+		FileOutputStream fos;
+		ObjectOutputStream oos;
+		//.ser is a common extension for serialized objects
+		fos = new FileOutputStream("/C:/Users/gilbe/Desktop/FolderOfFolders/Emp.ser");
+	}
+
+}
