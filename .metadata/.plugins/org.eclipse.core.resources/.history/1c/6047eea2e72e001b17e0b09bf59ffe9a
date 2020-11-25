@@ -1,0 +1,9 @@
+package set;
+
+public class HashSetDemo {
+
+	public static void main(String[] args) {
+		Random obj = new Random();
+	}
+
+}

@@ -1,0 +1,29 @@
+package list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListMethods {
+
+	public static void main(String[] args) {
+		// List is an interface that is implemented by both arraylist and linked
+		// list
+		// It is a good practice to use interfaces in the left side of the code.
+		// This is runtime polymorphism
+		List<Integer> list = new ArrayList<>();
+
+		for (int i = 10; i <= 100; i = i + 10) {
+			list.add(i);
+		}
+		System.out.println("List: "+ list);
+		
+		list.add(2, 100);
+		
+		System.out.println("List after insert: "+ list);
+		
+		list.set(3, 200);
+		
+		System.out.println("List after replacement: "+ list);
+	}
+
+}
