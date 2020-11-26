@@ -1,0 +1,19 @@
+package sortingobjects;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Test {
+	public static void main(String[] args) {
+		Set<Employee> set = new TreeSet<>();
+		set.add(new Employee(100,"Obama"));
+		set.add(new Employee(400,"Gil"));
+		set.add(new Employee(300,"Concha"));
+		set.add(new Employee(400,"Lol"));
+		
+		for(Employee e: set){
+			System.out.println(e.id);
+			System.out.println(e.name);
+		}
+	}
+}

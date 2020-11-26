@@ -1,8 +1,0 @@
-package assignment;
-
-public class ElectricityBill {
-	int meterNo;
-	String name;
-	String address;
-	
-}
