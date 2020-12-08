@@ -1,0 +1,36 @@
+package queue;
+
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+public class PriorityQueueDemo {
+
+	public static void main(String[] args) {
+		Queue<Integer> q = new PriorityQueue<>();
+		//Returns null if empty
+		System.out.println(q.peek());
+		//throws nosuchelement exception if empty
+		//System.out.println(q.element());
+		
+		for(int i = 20; i<=30; i++){
+			q.offer(i);
+		}
+		
+		System.out.println(q);
+		System.out.println(q.peek());
+		//removes the head and returns it, return null if empty
+		System.out.println(q.poll());
+		//throws nosuchelemt exception if queue is empty
+		System.out.println(q.remove());
+		System.out.println(q);
+		
+		/*
+		 *But you see that the order is messed up.
+		 *the PriorityQueue gaurantees the order the very first time we add the elements, but once we start
+		 *removing the elements etc,
+		 *it doesn't guarantee the order. So we should be using TreeSet
+		 *if you want the order every time.
+		 */
+	}
+
+}

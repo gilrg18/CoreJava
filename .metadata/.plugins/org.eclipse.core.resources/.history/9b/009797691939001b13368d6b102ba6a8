@@ -1,0 +1,18 @@
+package maps;
+
+import java.util.TreeMap;
+
+//map <-sorted map <-navigable map <- tree map
+public class NavigableMap {
+	public static void main(String[] args) {
+		TreeMap<String, String> tm = new TreeMap<>();
+		tm.put("A", "a");
+		tm.put("B", "b");
+		tm.put("C", "c");
+		tm.put("D", "d");
+		tm.put("E", "e");
+		
+		System.out.println(tm);
+		System.out.println(tm.floorKey("c"));
+	}
+}

@@ -23,6 +23,7 @@ public class HashSetDemo {
 		//This will filter out duplicates from the list
 		Set<Integer> set = new HashSet<>(list);
 		System.out.println("Set: "+ set);
+		System.out.println(set.contains(4));
 	}
 
 }

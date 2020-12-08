@@ -1,0 +1,15 @@
+package queue;
+
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+public class PriorityQueueDemo {
+
+	public static void main(String[] args) {
+		Queue<Integer> q = new PriorityQueue<>();
+		//Returns null if empty
+		System.out.println(q.peek());
+		System.out.println(q.element());
+	}
+
+}

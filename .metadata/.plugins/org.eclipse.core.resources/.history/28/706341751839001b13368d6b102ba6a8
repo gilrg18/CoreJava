@@ -1,0 +1,22 @@
+package navigableset;
+
+import java.util.TreeSet;
+
+public class NavigableTreeSetDemo {
+	public static void main(String[] args) {
+		TreeSet<Integer> s = new TreeSet<>();
+		s.add(10);
+		//s.add(20);
+		s.add(30);
+		s.add(40);
+		s.add(50);
+		System.out.println(s);
+		//returns greater than or equal to 20
+		System.out.println(s.ceiling(20));
+		//lowest element that is greater than 40
+		System.out.println(s.higher(40));
+		
+		System.out.println(s.floor(10));
+		
+	}
+}
