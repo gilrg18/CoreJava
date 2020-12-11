@@ -1,0 +1,23 @@
+package collectionsutil;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+//COLLECTIONS SORT
+public class SortedList {
+	public static void main(String[] args) {
+		List<String> l = new ArrayList<>();
+		l.add("Z");
+		l.add("A");
+		l.add("X");
+		l.add("B");
+		
+		System.out.println("Before sorting: "+ l);
+		
+		//Collections.sort(l);
+		//Using custom comparator
+		Collections.sort(l, new MyComparator());
+		
+		System.out.println("After sorting: "+ l);
+	}
+}

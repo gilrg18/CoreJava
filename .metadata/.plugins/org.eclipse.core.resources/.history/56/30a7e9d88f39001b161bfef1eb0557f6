@@ -1,0 +1,8 @@
+
+public class AnyRunnableTest {
+	public static void main(String[] args) {
+		//This works because the thread class implements the runnable interface
+		AnyRunnable<Thread> t = new AnyRunnable<>();
+		AnyRunnable<String> s = new AnyRunnable<>();
+	}
+}

@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+
+public class WildcardParams {
+	
+	public static void main(String[] args) {
+		WildcardParams wcp = new WildcardParams();
+		wcp.myMethod(new ArrayList<E>());
+	}
+	//<?> is a wildcard
+	public void myMethod(ArrayList<?> l){
+		
+		l.add(null);
+		//<?> only accepts null
+		l.add("Gil)";
+				
+	}
+}

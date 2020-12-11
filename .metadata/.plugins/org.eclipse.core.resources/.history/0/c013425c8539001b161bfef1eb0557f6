@@ -1,0 +1,16 @@
+package arraysutil;
+
+public class ArraySort {
+	public static void main(String[] args) {
+		int[] a = {40,15,10,7,30};
+		System.out.println("Before Sort:");
+		for(int eachElement: a){
+			System.out.println(eachElement);
+		}
+		System.out.println("After Sort:");
+		for(int eachElement: a){
+			System.out.println(eachElement);
+		}
+		
+	}
+}

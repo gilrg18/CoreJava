@@ -1,0 +1,4 @@
+
+public class MyClass extends Thread implements Comparable<String>{
+
+}

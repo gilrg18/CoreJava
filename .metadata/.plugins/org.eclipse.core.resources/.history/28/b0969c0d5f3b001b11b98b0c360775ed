@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+
+public class WildcardParams {
+	
+	public static void main(String[] args) {
+		WildcardParams wcp = new WildcardParams();
+		//MyClass arraylist works because it extends thread
+		//wcp.myMethod(new ArrayList<MyClass>());
+		wcp.myMethod(new ArrayList<Thread>());
+	}
+	//<?> is a wildcard
+	public void myMethod(ArrayList<? extends Thread> l){
+		
+		l.add(null);
+		//<?> only accepts null
+		
+				
+	}
+}
