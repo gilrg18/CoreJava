@@ -1,0 +1,11 @@
+//Using a Enum
+public enum PaymentType {
+	//Use () to call the constructor
+	DEBITCARD(5), CREDITCARD(0), CASH(10);
+	//DEFINING AND USING FIELDS
+	int fee;
+	
+	PaymentType(int fee){
+		this.fee = fee;
+	}
+}

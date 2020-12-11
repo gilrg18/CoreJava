@@ -1,0 +1,4 @@
+//Using a Enum
+public enum PaymentType {
+	DEBITCARD, CREDITCARD, CASH;
+}

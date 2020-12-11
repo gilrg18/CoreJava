@@ -1,0 +1,7 @@
+//ENUM INTRODUCTION
+//every enum class extends the Enum class
+public enum Databases {
+	//Constants that are objects or references to the class Databases
+	//Implicitly they are public, static and final
+	MYSQL,ORACLE,SQLSERVER;
+}

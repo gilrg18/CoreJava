@@ -1,0 +1,13 @@
+
+public class Test {
+	/*
+	 * you can refer to any of the constants inside the Enum using the
+	 * 
+	 * Enum name because they are all static. public static and final by
+	 * default.
+	 */
+	public static void main(String[] args) {
+		PaymentType pt = PaymentType.CREDITCARD;
+		System.out.println(pt);
+	}
+}

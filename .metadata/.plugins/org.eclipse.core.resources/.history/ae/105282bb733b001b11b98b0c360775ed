@@ -1,0 +1,10 @@
+//Using a Enum
+public enum PaymentType {
+	DEBITCARD, CREDITCARD, CASH;
+	//DEFINING AND USING FIELDS
+	int fee;
+	
+	PaymentType(int fee){
+		this.fee = fee;
+	}
+}
