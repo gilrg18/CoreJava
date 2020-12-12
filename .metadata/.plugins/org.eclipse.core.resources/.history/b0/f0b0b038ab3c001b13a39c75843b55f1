@@ -1,0 +1,5 @@
+package com.gil.java8.methodref.constructors;
+@FunctionalInterface
+public interface MyInterface {
+	MyClass get(String s);
+}

@@ -1,0 +1,9 @@
+package com.gil.java8.methodref;
+//REFERENCING AN INSTANCE METHOD
+public class MyClass {
+	public static void main(String[] args) {
+		//LAMBDA EXPRESSION TO PRINT A NUMBER
+		MyInterface f = i->System.out.println(i);
+		f.myMethod(10);
+	}
+}

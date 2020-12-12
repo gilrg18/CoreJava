@@ -1,0 +1,10 @@
+package com.gil.java8.predicate;
+
+public class GreaterThanTwenty {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

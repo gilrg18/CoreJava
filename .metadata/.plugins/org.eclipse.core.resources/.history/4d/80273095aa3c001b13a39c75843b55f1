@@ -1,0 +1,27 @@
+package com.gil.java8.methodref;
+
+//REFERENCING AN INSTANCE METHOD
+public class MyClass {
+	// method name can be different, parameters MUST be same
+	public void myMethod123(int i) {
+		System.out.println(i);
+	}
+
+	public static void main(String[] args) {
+		// LAMBDA EXPRESSION TO PRINT A NUMBER
+		MyInterface f = i -> System.out.println(i);
+		f.myMethod(10);
+
+		/*
+		 * So in this lecture, you have learnt how to map or reference a
+		 * instance method on a class to a functional
+		 * 
+		 * interface's method
+		 * 
+		 * using the double colon operator.
+		 */
+		MyClass c = new MyClass();
+		MyInterface f1 = c::myMethod123;
+		f1.myMethod(20);
+	}
+}

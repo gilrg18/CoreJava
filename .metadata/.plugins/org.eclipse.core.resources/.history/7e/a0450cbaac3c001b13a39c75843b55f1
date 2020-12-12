@@ -1,0 +1,5 @@
+package com.gil.java8.streams;
+//USING STREAMS
+public class FilterEvenNumbers {
+
+}

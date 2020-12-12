@@ -1,0 +1,7 @@
+//CREATE YOUR FIRST LAMBDA
+public class Test {
+	public static void main(String[] args) {
+		//interface a = new class that implements that interface
+		A a = new C();
+	}
+}

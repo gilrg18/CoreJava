@@ -1,0 +1,5 @@
+package com.gil.java8.defaultmethods;
+
+public interface A {
+
+}

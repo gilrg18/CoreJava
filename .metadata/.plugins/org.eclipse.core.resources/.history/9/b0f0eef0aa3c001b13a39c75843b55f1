@@ -1,0 +1,6 @@
+package com.gil.java8.methodref;
+//REFERENCING AN INSTANCE METHOD
+
+public interface MyInterface {
+	public void myMethod(int i);
+}

@@ -1,0 +1,9 @@
+package com.gil.java8.defaultmethods;
+
+public class Test {
+	public static void main(String[] args) {
+		//Interface a = new class that implements that interface
+		A a = new B();
+		a.m1();
+	}
+}

@@ -1,0 +1,14 @@
+package com.gil.java8.lambdas.interfaces;
+
+public class Test {
+	public static void main(String[] args) {
+		//interface r = new class that implements that interface
+		Runnable r = new MyRunnableImpl();
+		Thread t = new Thread(r);
+		t.start();
+		
+		for(int i = 1; i<= 10; i++){
+			System.out.println(i+".Main Thread");
+		}
+	}
+}

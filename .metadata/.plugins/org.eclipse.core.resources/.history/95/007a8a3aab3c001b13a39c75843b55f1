@@ -1,0 +1,9 @@
+package com.gil.java8.methodref.constructors;
+
+public class Test {
+	public static void main(String[] args) {
+		//lambda expression that is returning an instance of that class
+		MyInterface f1 = s->new MyClass(s);
+		f1.get("Using Lambdas");
+	}
+}
