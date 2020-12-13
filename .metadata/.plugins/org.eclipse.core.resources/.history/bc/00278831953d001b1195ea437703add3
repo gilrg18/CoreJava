@@ -1,0 +1,49 @@
+package com.gil.java.reflection;
+
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+import java.util.Arrays;
+
+//LOAD THE CLASS
+public class Test {
+
+	public static void main(String[] args) {
+		try {
+			Class<?> myClass = Class.forName(Calculator.class.getName());
+			System.out.println(myClass.getName());
+			// All constructors on that class
+			Constructor<?>[] constructors = myClass.getConstructors();
+			System.out.println(Arrays.toString(constructors));
+			// All the methods on that class
+			System.out.println(Arrays.toString(myClass.getMethods()));
+			//it will use the constructor depending the number of parameters
+			Constructor<?> constructor = myClass.getConstructor(null);
+			
+			constructor.newInstance(null);
+			
+			// throws classnotfoundexception if it cant find the class in the
+			// classpath
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (NoSuchMethodException e) {
+			e.printStackTrace();
+		} catch (SecurityException e) {
+			e.printStackTrace();
+		} catch (InstantiationException e) {
+			e.printStackTrace();
+		} catch (IllegalAccessException e) {
+			e.printStackTrace();
+		} catch (IllegalArgumentException e) {
+			e.printStackTrace();
+		} catch (InvocationTargetException e) {
+			e.printStackTrace();
+		}
+	}
+
+	/*
+	 * you have successfully assigned the loaded class to a variable
+	 * 
+	 * and you have accessed the name, the constructors on that class and even
+	 * the methods dynamically at runtime.
+	 */
+}

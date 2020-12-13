@@ -1,0 +1,13 @@
+package com.gil.java.reflection;
+//LOAD THE CLASS
+public class Test {
+	
+	public static void main(String[] args) {
+		//try {
+			System.out.println(Calculator.class.getName());
+			//throws classnotfoundexception if it cant find the class in the classpath
+		//} catch (ClassNotFoundException e) {
+		//	e.printStackTrace();
+		//}
+	}
+}

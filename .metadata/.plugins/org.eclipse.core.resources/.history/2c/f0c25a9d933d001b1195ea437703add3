@@ -1,0 +1,8 @@
+package com.gil.java.reflection;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		Class.forName(Calculator.class.getName());
+	}
+}

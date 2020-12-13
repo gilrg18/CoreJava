@@ -1,6 +1,7 @@
 //USING @Deprecated
 //@Deprecated
 public class A {
+	//ctrl + click into deprecated to open deprecated class
 	@Deprecated
 	int id;
 	//Now only the method is deprecated
