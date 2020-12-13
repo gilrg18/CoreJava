@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;JVMArchitecture/src/classloading&apos;&#x0D;&#x0A;- Original project: &apos;JVMArchitecture&apos;&#x0D;&#x0A;- Destination element: &apos;JVMArchitecture/src/classloading&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Test.java&#x0D;&#x0A;     User.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;classloading" element1="/src&lt;{Test.java" element2="/src&lt;{User.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1607883194471" units="2" version="1.0"/>
+</session>
