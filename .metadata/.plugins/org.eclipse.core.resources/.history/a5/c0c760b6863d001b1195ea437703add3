@@ -1,0 +1,11 @@
+
+public class B {
+	public static void main(String[] args){
+		//Using @Deprecated
+		//now A shows a warning because of @Deprecated
+		A a = new A();
+		a.myMethod();
+		a.myMethod2();
+		System.out.println(a);
+	}
+}

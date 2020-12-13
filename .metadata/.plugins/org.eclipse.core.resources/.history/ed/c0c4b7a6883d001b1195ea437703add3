@@ -1,0 +1,4 @@
+//right click -> new -> annotation
+public @interface MyAnnotation {
+
+}

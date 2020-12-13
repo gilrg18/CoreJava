@@ -1,0 +1,9 @@
+//USING @Deprecated
+//@Deprecated
+public class A {
+	//Now only the method is deprecated
+	@Deprecated
+	public void myMethod() {
+		System.out.println("myMethod");
+	}
+}
