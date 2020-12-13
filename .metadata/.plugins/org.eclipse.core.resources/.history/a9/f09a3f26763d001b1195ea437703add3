@@ -1,0 +1,9 @@
+import java.text.NumberFormat;
+//NUMBER FORMAT 
+public class NumberFormatTest {
+	public static void main(String[] args) {
+		Double d = 123123.3232;
+		NumberFormat nf = NumberFormat.getInstance();
+		System.out.println(nf.format(d));
+	}
+}

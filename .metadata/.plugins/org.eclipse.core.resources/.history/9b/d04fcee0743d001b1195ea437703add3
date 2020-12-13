@@ -1,0 +1,9 @@
+import java.util.Locale;
+
+public class LocalsTest {
+	public static void main(String[] args) {
+		Locale l = Locale.getDefault();
+		System.out.println(l);
+		System.out.println(l.getCountry()+" "l.getLanguage());
+	}
+}
