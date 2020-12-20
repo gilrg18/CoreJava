@@ -1,7 +1,0 @@
-//CREATE A FUNCTIONAL INFERFACE
-@FunctionalInterface
-public interface A {
-	void myMethod();
-	//more than one method is not possible with functional interfaces
-	//void myMethod1();
-}

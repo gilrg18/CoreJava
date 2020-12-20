@@ -1,4 +1,0 @@
-//CREATE A FUNCTIONAL INFERFACE
-public interface A {
-	void myMethod();
-}

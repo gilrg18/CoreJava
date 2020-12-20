@@ -1,4 +1,0 @@
-//CREATE A FUNCTIONAL INTERFACE
-public interface B extends A{
-	void myMethod1();
-}

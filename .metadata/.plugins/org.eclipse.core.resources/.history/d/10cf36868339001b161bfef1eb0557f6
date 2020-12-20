@@ -1,7 +1,0 @@
-package collectionsutil;
-
-import java.util.Comparator;
-
-public class MyComparator implements Comparator<T> {
-
-}
