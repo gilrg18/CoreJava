@@ -1,7 +1,0 @@
-import java.text.DateFormat;
-
-public class DateFormatTest {
-	public static void main(String[] args) {
-		DateFormat usDF = DateFormat.getDateInstance(0,Locale.US);
-	}
-}
