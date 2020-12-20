@@ -1,7 +1,0 @@
-//USING @Deprecated
-@Deprecated
-public class A {
-	public void myMethod() {
-		System.out.println("myMethod");
-	}
-}

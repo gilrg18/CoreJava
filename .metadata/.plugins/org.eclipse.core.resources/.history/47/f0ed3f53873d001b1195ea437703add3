@@ -1,7 +1,0 @@
-//Using @Override
-public class MyChild extends MyParent {
-	@Override
-	public String greet(Integer name){
-		return "Hi "+name;
-	}
-}

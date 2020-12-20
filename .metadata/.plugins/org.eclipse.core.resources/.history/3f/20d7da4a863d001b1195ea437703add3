@@ -1,5 +1,0 @@
-//USING @Deprecated
-@Deprecated
-public class A {
-
-}
